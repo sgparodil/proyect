@@ -1,6 +1,9 @@
 import fastify from 'fastify';
+import { build } from './app';
 
-const app = fastify({ logger: true });
+const app = build();
+
+
 
 // 1. GET que retorna "Hello World"
 app.get('/', async () => {

@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "tsx src/main.ts"
-  },
-  "dependencies": {
-    "fastify": "^4.29.1"
+    "start": "tsx src/main.ts",
+    "test": "vitest"
   },
   "devDependencies": {
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.3"
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.0.0"
   }
 }
